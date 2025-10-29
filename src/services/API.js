@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5203/API" 
+  baseURL: "https://taskmanagerapp.runasp.net/api" 
 });
 
 // Add token automatically to every request
